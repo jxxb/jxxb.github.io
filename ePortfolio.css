@@ -1,0 +1,80 @@
+
+
+
+body{
+   background-color: rgba(255, 164, 161, 0.5);
+}
+
+
+header > div > div > a > img {
+   width:52px;
+   height:39px;
+   border:0;
+   
+}
+
+div > object {
+   width: 85px;
+   height: 500px;
+   width: 100%;
+   align-items: center;
+
+}
+
+#container{
+   width:100%;
+}
+
+#pic {
+   background-image:url("./20191123_170013[444].jpg");
+   alt:"Jared's Wild Rose Ranch Resort";
+   width:100%;
+   min-height:400px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /*position: relative;*/
+}
+
+#topnav{
+   overflow: hidden;
+   /*background-color: white;*/
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items:center;
+   margin-left: auto;
+   margin-right: auto;
+   top: 500px;
+   
+}
+
+#topnav a{
+   
+   flex-wrap: wrap;
+   color: rgb(64, 92, 167);
+   background-color: rgba(218, 141, 138, 0.5);
+   border: 10px;
+   border-radius: 12px; 
+   text-align: center;
+   padding: 10px;
+   margin: 0px 0px 0px 0px;
+   font-size: 38px;
+   font-family: "aglet slab";
+   text-decoration: none;
+}
+
+footer{
+   /*position: fixed;*/
+   bottom: 0px;
+   width: 100%;
+   text-align: center;
+}
+
+h1 {
+   color: rgb(148, 84, 54);
+}
+
+h2{
+   color: rgb(151, 63, 63);
+}
