@@ -1,5 +1,9 @@
 
-
+#shapes, #jxxb{
+   width: 75%;
+   margin-left: auto;
+   margin-right: auto;
+}
 
 body{
    background-color: rgba(255, 164, 161, 0.5);
@@ -14,10 +18,12 @@ header > div > div > a > img {
 }
 
 div > object {
-   width: 85px;
-   height: 500px;
+   width: 467px;
+   height: 1150px;
    width: 100%;
    align-items: center;
+   position: relative;
+   margin:0 auto;
 
 }
 
@@ -29,7 +35,7 @@ div > object {
    background-image:url("./20191123_170013[444].jpg");
    alt:"Jared's Wild Rose Ranch Resort";
    width:100%;
-   min-height:400px;
+   min-height:100px;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -65,7 +71,7 @@ div > object {
 }
 
 footer{
-   /*position: fixed;*/
+   position: relative;
    bottom: 0px;
    width: 100%;
    text-align: center;
